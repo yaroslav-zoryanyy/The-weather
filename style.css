@@ -330,3 +330,11 @@ body{
 .card.glass:hover .card__footer {
     opacity: 0.6;
 }
+@media(max-width: 430px){
+  .card-param{
+    gap: 1px;
+  }
+  .card-param-text{
+    font-size: 22px;
+  }
+}
